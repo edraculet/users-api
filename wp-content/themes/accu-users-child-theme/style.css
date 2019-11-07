@@ -1,0 +1,65 @@
+/*
+Theme Name:   Accu Users Child Theme
+Description:  Write here a brief description about your child-theme
+Author:       admin
+Author URL:   Write here the author's blog or website url
+Template:     twentynineteen
+Version:      1.0
+Text Domain:  accu-users-child-theme
+*/
+
+body.home .entry-header {
+    display: none;
+}
+body.page .main-navigation {
+    text-align: right;
+}
+.main-navigation,
+.nav-links{
+    font-size: 1em;
+}
+.site-logo {
+    position: relative;
+    right: auto;
+    top: auto;
+    float: left;
+    margin-top: -10px;
+    margin-right: 10px;
+}
+
+.site-logo .custom-logo-link {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+}
+
+.entry .entry-content .has-large-font-size {
+    font-size: 1em;
+}
+
+.the-excerpt {
+    color: #f09c4a;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    h2 {
+        font-size: 1.25em;
+    }
+
+    entry-title,
+    .not-found .page-title,
+    .error-404 .page-title,
+    .has-larger-font-size,
+    h2 {
+        font-size: 2em;
+    }
+
+    .site-header {
+        padding: 1rem 0;
+    }
+}

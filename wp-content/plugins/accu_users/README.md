@@ -25,20 +25,11 @@ If status code 400 is received, the user is not allowed to login to Wordpress we
 
 ### Testing plugin
 
-Docker should be used to create the testing environment using command: `docker-compose up -d`
-
-The wordpress site will be available at http://localhost:8000
-
 **Admin credentials:**
 
-```
-Username: admin
-Password: use_pass
-```
+`Username: admin`
 
-
-Alternatively, the plugin archive can be installed in any Wordpress instance from `accu_users.zip` file.
-
+`Password: use_pass`
 
 
 **API User data for 200 response:**
